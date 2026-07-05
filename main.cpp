@@ -256,6 +256,7 @@ public:
 		if (total_score > high_score) std::cout << "新纪录\n分数: " << total_score;
 		else if (high_score > total_score) std::cout << "分数: " << total_score << "\n最高分数: " << high_score;
 		std::cout << "\n================\n";
+		set_cursor_visible(true);
 	}
 };
 
